@@ -1,0 +1,52 @@
+{
+  "name": "react-native-iap",
+  "version": "3.3.9",
+  "description": "React Native In App Purchase Module.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "postinstall": "dooboolab-welcome postinstall",
+  "scripts": {
+    "eslint": "eslint",
+    "flow": "flow",
+    "lint": "eslint -c .eslintrc.js '.'",
+    "test": "exit 0",
+    "test:flow": "flow",
+    "test:typescript": "tsc --noEmit",
+    "tsc:sync": "npx typesync",
+    "tsc": "tsc",
+    "validate": "npm run lint && npm run test:typescript && npm run test:flow && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dooboolab/react-native-iap"
+  },
+  "keywords": [
+    "react-native",
+    "in app purchase",
+    "in-app-purchase",
+    "billing"
+  ],
+  "author": "dooboolab",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.54"
+  },
+  "dependencies": {
+    "dooboolab-welcome": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^4.16.6",
+    "@types/react": "16.8.24",
+    "@types/react-native": "0.60.3",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "flow-bin": "^0.104.0",
+    "typescript": "^3.5.3"
+  }
+}
